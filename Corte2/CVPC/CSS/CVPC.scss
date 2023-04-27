@@ -1,0 +1,33 @@
+@import url('../../../Component/component.css');
+
+.container {
+    margin-top: 100px;
+    width: 100%;
+    display: grid;
+    justify-items: center;
+
+    .CV {
+        background-color: #0D1117;
+        padding: 40px;
+        border-radius: 30px;
+        margin-bottom: 100px;
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        ul {
+            list-style: none;
+
+            li {
+                margin: 15px 0;
+
+                p {
+                    font-size: 20px;
+                    opacity: 0.8;
+                }
+            }
+        }
+    }
+}

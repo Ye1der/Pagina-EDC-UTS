@@ -1,0 +1,54 @@
+@import url('../../Component/component.css');
+
+/*CUADRO COMPARATIVO*/
+
+#Cuadro {
+    display: flex;
+}
+
+.cuadro {
+    background-color: #0D1117;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    margin: 0px 20px;
+    margin-top: 100px;
+    color: white;
+    width: 30%;
+    height: 400px;
+    border: solid 1px #30363D;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.cuadro h1 {
+    font-size: 20px;
+}
+
+.newmann {
+    background-color: #010409;
+    border: solid 1px #30363D;
+    border-radius: 15px;
+    padding: 5px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+} 
+
+.newmann h1, 
+.harvard h1 {
+    font-size: 18px;
+}
+
+.newmann p, 
+.harvard p {
+    opacity: 0.6;
+}
+
+
+.harvard {
+    background-color: #010409;
+    border: solid 1px #30363D;
+    border-radius: 15px;
+    padding: 5px;
+}
+

@@ -1,0 +1,23 @@
+@import url("../../../Component/component.css");
+.container {
+  width: 98%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 100px;
+}
+.container .columna {
+  background-color: #0D1117;
+  border-radius: 20px;
+  margin: 30px;
+}
+.container .columna h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+.container .columna p {
+  margin: 30px;
+  text-align: justify;
+  font-size: 20px;
+  opacity: 0.8;
+}/*# sourceMappingURL=RM.css.map */

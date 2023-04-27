@@ -1,0 +1,142 @@
+
+@import url('../../Component/component.css');
+
+/*TITULO*/
+
+.titulo {
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+
+
+/*QUE ES?*/
+.bloque1 {
+    color: white;
+    background-color: #0D1117;
+    width: 90%;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    border: solid 1px #30363D;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+
+.bloque1 h1 {
+    padding: 30px 0;
+    text-align: center;
+    width: 20%;
+    margin: auto 0;
+    border-right: 2px solid white;
+}
+
+.bloque1 p {
+    width: 80%;
+    margin: auto;
+    margin-left: 5%;
+    padding: 18px 0;
+    opacity: 0.8;
+    font-size: 20px;
+}
+
+
+/*PARA QUE SIRVE?*/
+.bloque2 {
+    color: white;
+    background-color: #0D1117;
+    width: 90%;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    border: solid 1px #30363D;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+
+.bloque2 h1 {
+    padding: 15px 0;
+    text-align: center;
+    width: 20%;
+    margin: auto 0;
+    border-right: 2px solid white;
+}
+
+.bloque2 p {
+    width: 80%;
+    margin: auto;
+    margin-left: 5%;
+    opacity: 0.8;
+    font-size: 20px;
+    padding: 18px 0;
+}
+
+
+/*CONTENEDOR VENTAJAS Y DESVENTAJAS*/
+.contenedorDV {
+    width: 93%;
+    display: flex;
+    margin: auto;
+} 
+
+
+/*VENTAJAS*/
+.bloque3 {
+    color: white;
+    width: 50%;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    padding: 30px;
+    background-color: #0D1117;
+    border: 1px solid #30363D;
+    border-radius: 15px;
+}
+
+.bloque3 h1 {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 3px solid white;
+}
+
+.bloque3 p {
+    text-align: justify;
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+
+/*DESVENTAJAS*/
+.bloque4 {
+    color: white;
+    width: 50%;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    padding: 30px;
+    background-color: #0D1117;
+    border: 1px solid #30363D;
+    border-radius: 15px;
+}
+
+.bloque4 h1 {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 3px solid white;
+}
+
+.bloque4 p {
+    text-align: justify;
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+

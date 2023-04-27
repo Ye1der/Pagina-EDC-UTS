@@ -1,0 +1,77 @@
+@import url('../../Component/component.css');
+
+/*CONTENEDOR*/
+
+.container {
+    display: flex;
+}
+
+/*IMAGEN TALLER*/
+
+#taller {
+    width: 45%;
+    margin-top: 7%;
+    margin-left: 2%;
+    border-radius: 10px;
+    box-shadow: 0 0 30px black;
+}
+
+/*BLOQUES DE TEXTO*/
+
+.blocText {
+    width: 52%;
+    margin-left: 2%;
+    margin-top: 8%;
+}
+
+.blocText hr {
+    width: 90%;
+    margin-right: 9%;
+}
+
+.bloques {
+    color: white;
+    width: 90%;
+    margin-left: 3%;
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.bloques h1 {
+    margin-right: 2.5%;
+    padding-right: 2.5%;
+    border-right: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bloques p {
+    font-size: large;
+    opacity: 0.9;
+}
+
+.bloques.uno {
+    margin-top: 6%;
+}
+
+.bloques.dos h1 {
+    margin-left: 4%;
+    margin-right: 3%;
+    padding-right: 6%;
+}
+
+.bloques.tres {
+    margin-top: 5%;
+}
+
+.bloques.tres h1{
+    text-align: center;
+    width: 92%;
+    margin-right: 3%;
+}
+
+.bloques.sub h1 {
+    padding-right: 3%;
+
+}
