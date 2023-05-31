@@ -1,0 +1,54 @@
+@import url('../../../Component/component.css');
+
+
+.titulo {
+    text-align: center;
+    margin-bottom: 100px;
+    opacity: 0.8;
+}
+
+main {
+    margin: 100px auto;
+
+    section {
+        width: 85%;
+        margin: auto;
+        margin: 50px auto ;
+    
+        .contenedor {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    
+            .texto {
+                padding-left: 80px;
+                margin-left: 30px;
+        
+                ul {
+                    list-style: none;
+        
+                    li {
+                        margin: 20px 0;
+            
+                        p {
+                            font-size: 18px;
+                            opacity: 0.8;
+                            text-align: justify;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.separador {
+    border-style: solid;
+    border-color: rgb(17, 17, 17);
+    border-width: 1px; /* Ajusta el grosor según tus preferencias */
+}
+
+.imgWin, .imgLinux, .imgMac{
+    width: 200px;
+    opacity: 0.8;
+}

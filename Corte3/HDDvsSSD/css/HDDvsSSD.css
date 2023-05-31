@@ -1,0 +1,30 @@
+@import url(../../../Component/component.css);
+.principal {
+  width: 90%;
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 100px;
+}
+.principal section {
+  border: 1px solid #171d25;
+  padding: 30px;
+  border-radius: 30px;
+}
+.principal section h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.principal section ul {
+  margin: auto;
+}
+.principal section ul li {
+  margin: 25px;
+}
+.principal section ul li p {
+  font-size: 19px;
+  opacity: 0.8;
+}/*# sourceMappingURL=HDDvsSSD.css.map */

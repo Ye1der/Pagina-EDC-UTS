@@ -1,0 +1,70 @@
+@import url(../../../Component/component.css);
+
+
+main {
+    margin: 100px auto;
+
+    .titulo {
+        text-align: center;
+        margin-bottom: 50px;
+        opacity: 0.9;
+    }
+
+    .puntoUno {
+        width: 80%;
+        margin: auto;
+
+        h2 {
+            text-align: center;
+            opacity: 0.8;
+        }
+
+        ul {
+            width: 75%;
+            margin: 30px auto;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+            list-style: none;
+
+            li {
+                text-align: justify;
+                opacity: 0.8;
+                font-size: 18px;
+                border: 2px solid #141a22;
+                padding: 20px;
+                border-radius: 15px;
+            }
+        }
+    }
+
+    .puntoDos {
+        width: 80%;
+        margin: 100px auto;
+
+        h2 {
+            text-align: center;
+            opacity: 0.8;
+        }
+
+        table {
+            margin-top: 50px;
+            
+            tr {
+                th {
+                border: 2px solid #141a22;
+                padding: 20px;
+                text-align: center;
+                border-radius: 5px;
+                }
+
+                td{
+                border: 2px solid #141a22;
+                padding: 20px;
+                text-align: center;
+                border-radius: 5px;
+                }
+            }
+        }
+    }
+}

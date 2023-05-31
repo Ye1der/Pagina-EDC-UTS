@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/sistemasArchivos.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+</head>
+<body>
+    
+    <!--NAVEGACION-->
+    <div class="navegacion">
+        <a class="inicio" href="../../index.html"> <i class="fi fi-rr-home"></i> </a> 
+        <p class="tituloPestaña"> Particiones de disco </p>
+        
+        <div class="primerCorte">
+            
+            <span class="corte1"> Corte 1 <i class="fi fi-rr-angle-small-down" id="icono"></i> </span>
+                
+            <div class="navegacion1">
+                <ul>
+                    <li>
+                        <a href="../../Corte1/Timeline/Timeline.html" class="enlace">Linea de tiempo</a>
+                    </li>
+                    <li>
+                        <a href="../../Corte1/Pagina2/Cuadro.html" class="enlace">Comparaciones</a>
+                    </li>
+                    <li>
+                        <a href="../../Corte1/Pagina3/Overclock.html">Overclock</a>
+                    </li>
+                    <li>
+                        <a href="../../Corte1/Taller/taller.html">Taller</a>
+                    </li>
+                    <li>
+                        <a href="../../Corte1/IntelAMD/IntelAMD.html">INTEL y AMD</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    
+        <div class="segundoCorte">
+            <span class="corte2"> Corte 2 <i class="fi fi-rr-angle-small-down" id="icono"></i> </span>
+            <div class="navegacion2">
+                <ul>
+                    <li>
+                        <a href="../../Corte2/Boards/Boards.html"> Board </a>
+                    </li>
+                    <li>
+                        <a href="../../Corte2/Taller2/taller2.html"> Taller 2 </a>
+                    </li>
+                    <li>
+                        <a href="../../Corte2/CVPC/CVPC.html"> Hoja de vida PC </a>
+                    </li>
+                    <li>
+                        <a href="../../Corte2/Juego/Juego.html"> Juego </a>
+                    </li>
+                    <li>
+                        <a href="../../Corte2/MaquinaVirtual/maquinaVirtual.html"> Maquina virtual </a>
+                    </li>
+                    <li>
+                        <a href="../../Corte2/RM/RM.html"> Rem y Rom </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="tercerCorte">
+            <span class="corte3"> Corte 3 <i class="fi fi-rr-angle-small-down" id="icono"></i> </span>
+            <div class="navegacion3">
+                <ul>
+                    <li>
+                        <a href="../HDDvsSSD/HDDvsSSD.html"> HDD vs SSD </a>
+                    </li>
+                    <li>
+                        <a href="../Particiones/particiones.html"> Particiones </a>
+                    </li>
+                    <li>
+                        <a href="../SistemasArchivos/sistemasArchivos.html"> Sistemas Archivos </a>
+                    </li>
+                    <li>
+                        <a href="../Taller3/taller3.html"> Taller 3 </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--CUERPO DE LA PAGINA-->
+    <main>
+        <div class="contenedor" >
+            <div class="card" >
+                <h1>NTFS </h1>
+                <p>
+                    Utilizado principalmente en sistemas Windows. <br> <br>
+                    Permite el cifrado de archivos y control de acceso basado en permisos. <br><br>
+                    Admite tamaños de archivo y partición muy grandes. <br><br>
+                    Proporciona recuperación ante errores y metadatos avanzados. <br><br>
+                </p>
+            </div>
+            <div class="card" >
+                <h1>FAT32 </h1>
+                <p>
+                    Compatible con varios sistemas operativos, incluidos Windows, macOS y Linux. <br><br>
+                    Es adecuado para dispositivos USB, tarjetas de memoria y otros medios extraíbles. <br><br>
+                    No admite archivos individuales mayores a 4 GB. <br><br>
+                    No ofrece características de seguridad avanzadas ni journaling. <br><br>
+                </p>
+            </div>
+            <div class="card" >
+                <h1>exFAT </h1>
+                <p>
+                    Desarrollado por Microsoft como una versión mejorada de FAT32. <br><br>
+                    Compatible con Windows, macOS y algunos sistemas Linux con controladores adicionales. <br><br>
+                    Ideal para dispositivos de almacenamiento externo, como unidades flash y discos duros externos. <br><br>
+                    Permite archivos de tamaño extremadamente grande y no tiene restricciones de 4 GB. <br><br>
+                </p>
+            </div>
+            <div class="card" >
+                <h1>HFS+ </h1>
+                <p>
+                    Utilizado en sistemas macOS anteriores a macOS 10.13. <br><br>
+                    Admite metadatos extendidos, journaling y encriptación de archivos. <br><br>
+                    Proporciona soporte para nombres de archivo unicode y tamaños de archivo y partición grandes. <br><br>
+                    No es compatible de forma nativa con otros sistemas operativos. <br><br>
+                </p>
+            </div>
+            <div class="card" >
+                <h1>APFS </h1>
+                <p>
+                    Introducido en macOS 10.13 y posteriormente utilizado como el sistema de archivos predeterminado. <br><br>
+                    Diseñado específicamente para dispositivos de almacenamiento SSD y otros dispositivos de Apple. <br><br>
+                    Ofrece características avanzadas como journaling, instantáneas, encriptación y duplicación de archivos. <br><br>
+                    Proporciona un mejor rendimiento y una mayor eficiencia en comparación con HFS+. <br><br>
+                </p>
+            </div>
+            <div class="card" >
+                <h1>EXT4 </h1>
+                <p>
+                    Utilizado en muchos sistemas operativos basados en Linux. <br><br>
+                    Admite tamaños de archivo y partición muy grandes. <br><br>
+                    Proporciona journaling para una recuperación rápida ante errores y confiabilidad del sistema. <br><br>
+                    Es compatible con atributos extendidos y encriptación a nivel de archivo. <br><br>
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <!--SCRIPT -->
+    <script src="../../Component/app.js"></script>
+
+</body>
+</html>

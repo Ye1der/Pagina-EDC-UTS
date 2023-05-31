@@ -1,0 +1,47 @@
+@charset "UTF-8";
+@import url("../../../Component/component.css");
+.titulo {
+  text-align: center;
+  margin-bottom: 100px;
+  opacity: 0.8;
+}
+
+main {
+  margin: 100px auto;
+}
+main section {
+  width: 85%;
+  margin: auto;
+  margin: 50px auto;
+}
+main section .contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main section .contenedor .texto {
+  padding-left: 80px;
+  margin-left: 30px;
+}
+main section .contenedor .texto ul {
+  list-style: none;
+}
+main section .contenedor .texto ul li {
+  margin: 20px 0;
+}
+main section .contenedor .texto ul li p {
+  font-size: 18px;
+  opacity: 0.8;
+  text-align: justify;
+}
+
+.separador {
+  border-style: solid;
+  border-color: rgb(17, 17, 17);
+  border-width: 1px; /* Ajusta el grosor según tus preferencias */
+}
+
+.imgWin, .imgLinux, .imgMac {
+  width: 200px;
+  opacity: 0.8;
+}/*# sourceMappingURL=particiones.css.map */

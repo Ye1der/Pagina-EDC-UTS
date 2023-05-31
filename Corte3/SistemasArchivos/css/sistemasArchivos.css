@@ -1,0 +1,24 @@
+@import url("../../../Component/component.css");
+main {
+  margin: 100px auto;
+}
+main .contenedor {
+  margin: 0 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+main .contenedor .card {
+  border: 2px solid #141a22;
+  padding: 20px;
+  border-radius: 20px;
+}
+main .contenedor .card h1 {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+main .contenedor .card p {
+  font-size: 18px;
+  opacity: 0.8;
+}/*# sourceMappingURL=sistemasArchivos.css.map */

@@ -41,3 +41,25 @@ contenedor2.addEventListener('mouseleave', function(){
     }, 300)
     boton2.style.opacity = '1'
 })
+
+
+// Menu corte 3
+const contenedor3 = document.querySelector('.tercerCorte')
+const menu3 = document.querySelector('.navegacion3')
+const boton3 = document.querySelector('.corte3')
+
+contenedor3.addEventListener('mouseenter', function(){
+    menu3.style.display = 'block'
+    setTimeout( function(){
+    menu3.style.opacity = '1'
+    }, 100)
+    boton3.style.opacity = '0.7'
+})
+
+contenedor3.addEventListener('mouseleave', function(){
+    menu3.style.opacity = '0'
+    setTimeout(()=>{
+    menu3.style.display = 'none'
+    }, 300)
+    boton3.style.opacity = '1'
+})

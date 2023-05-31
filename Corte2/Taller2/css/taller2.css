@@ -1,0 +1,12 @@
+@import url(../../../Component/component.css);
+.taller2 {
+  width: 100%;
+  margin-top: 100px;
+  text-align: center;
+}
+.taller2 img {
+  width: 80%;
+  margin-top: 50px;
+  margin-bottom: 200px;
+  border-radius: 30px;
+}/*# sourceMappingURL=taller2.css.map */

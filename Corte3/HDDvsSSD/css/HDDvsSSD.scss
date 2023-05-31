@@ -1,0 +1,37 @@
+@import url(../../../Component/component.css);
+
+.principal {
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 100px;
+
+    section {
+        border:1px solid #171d25;
+        padding: 30px;
+        border-radius: 30px;
+
+
+        h1 {
+            text-align: center;
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+
+        ul {
+            margin: auto;
+            
+            li {
+                margin: 25px;
+                
+                p{
+                    font-size: 19px;
+                    opacity: 0.8;
+                }
+            }
+        }
+    }
+}

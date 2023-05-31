@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/particiones.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+</head>
+<body>
+    
+     <!--NAVEGACION-->
+     <div class="navegacion">
+        <a class="inicio" href="../../index.html"> <i class="fi fi-rr-home"></i> </a> 
+        <p class="tituloPestaña"> Particiones de disco </p>
+        
+        <div class="primerCorte">
+            
+            <span class="corte1"> Corte 1 <i class="fi fi-rr-angle-small-down" id="icono"></i> </span>
+                
+            <div class="navegacion1">
+                <ul>
+                    <li>
+                        <a href="../../Corte1/Timeline/Timeline.html" class="enlace">Linea de tiempo</a>
+                    </li>
+                    <li>
+                        <a href="../../Corte1/Pagina2/Cuadro.html" class="enlace">Comparaciones</a>
+                    </li>
+                    <li>
+                        <a href="../../Corte1/Pagina3/Overclock.html">Overclock</a>
+                    </li>
+                    <li>
+                        <a href="../../Corte1/Taller/taller.html">Taller</a>
+                    </li>
+                    <li>
+                        <a href="../../Corte1/IntelAMD/IntelAMD.html">INTEL y AMD</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    
+        <div class="segundoCorte">
+            <span class="corte2"> Corte 2 <i class="fi fi-rr-angle-small-down" id="icono"></i> </span>
+            <div class="navegacion2">
+                <ul>
+                    <li>
+                        <a href="../../Corte2/Boards/Boards.html"> Board </a>
+                    </li>
+                    <li>
+                        <a href="../../Corte2/Taller2/taller2.html"> Taller 2 </a>
+                    </li>
+                    <li>
+                        <a href="../../Corte2/CVPC/CVPC.html"> Hoja de vida PC </a>
+                    </li>
+                    <li>
+                        <a href="../../Corte2/Juego/Juego.html"> Juego </a>
+                    </li>
+                    <li>
+                        <a href="../../Corte2/MaquinaVirtual/maquinaVirtual.html"> Maquina virtual </a>
+                    </li>
+                    <li>
+                        <a href="../../Corte2/RM/RM.html"> Rem y Rom </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="tercerCorte">
+            <span class="corte3"> Corte 3 <i class="fi fi-rr-angle-small-down" id="icono"></i> </span>
+            <div class="navegacion3">
+                <ul>
+                    <li>
+                        <a href="../HDDvsSSD/HDDvsSSD.html"> HDD vs SSD </a>
+                    </li>
+                    <li>
+                        <a href="#"> Particiones </a>
+                    </li>
+                    <li>
+                        <a href="../SistemasArchivos/sistemasArchivos.html"> Sistemas Archivos </a>
+                    </li>
+                    <li>
+                        <a href="../Taller3/taller3.html"> Taller 3 </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--CUERPO DE LA PAGINA-->
+    <main>
+
+        <h1 class="titulo" > Particiones mas importantes de Windows, Mac y Linux </h1>
+
+        <hr class="separador" >
+
+        <section class="windows">
+            <div id="contenedorWin" class="contenedor" >
+                <div>
+                    <img src="../../img/Windows_icon_logo.png" alt="Logo de windows" class="imgWin">
+                </div>
+                <div class="texto">
+                    <ul>
+                        <li>
+                            <p>
+                                <strong>System Reserved:</strong> En los sistemas Windows, a menudo se crea una pequeña partición llamada "System Reserved" que contiene los archivos de inicio del sistema. Esta partición generalmente no se muestra como una unidad en el explorador de archivos y es necesaria para el correcto arranque del sistema operativo.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <strong>C: (Sistema operativo):</strong> En la mayoría de las instalaciones de Windows, la partición principal se etiqueta como "C:" y es donde se instala el sistema operativo y se almacenan los archivos del sistema. Esta partición almacena el sistema operativo Windows y los programas instalados.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <strong>D: (Datos):</strong> A menudo, los usuarios de Windows crean una partición adicional para almacenar sus datos personales, como documentos, música, videos, etc. Esta partición se puede etiquetar como "D:" y permite separar los datos personales de la partición del sistema operativo, lo que facilita la reinstalación sin perder los archivos personales.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <hr class="separador" >
+
+        <section class="mac" >
+            <div class="contenedor" id="contenedorMac">
+                <div>
+                    <img src="../../img/logoMac-removebg-preview.png" alt="Logo de mac" class="imgMac">
+                </div>
+                <div class="texto">
+                    <ul>
+                        <li>
+                            <p>
+                                <strong>EFI:</strong> Al igual que en los sistemas Windows, los sistemas Mac también utilizan una partición EFI (Extensible Firmware Interface) para el arranque del sistema. Esta partición contiene los archivos necesarios para el inicio del sistema operativo macOS.
+                            </p>    
+                        </li>
+                        <li>
+                            <p>
+                                <strong>Macintosh HD:</strong> Esta partición es donde se instala el sistema operativo macOS y se almacenan los archivos del sistema. Aquí se encuentran los directorios y archivos esenciales para el funcionamiento del sistema y los programas instalados.
+                            </p>    
+                        </li>
+                        <li>
+                            <p>
+                                <strong>Datos:</strong> En los sistemas macOS, a menudo se crea una partición separada para almacenar los datos personales de los usuarios, como documentos, fotos, música y videos. Esta partición permite separar los datos personales del sistema operativo, lo que
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <hr class="separador" >
+
+        <section class="linux" >
+            <div id="contenedorLinux" class="contenedor" >
+                <div>
+                    <img src="../../img/LogoLinux-removebg-preview.png" alt="Logo de linux" class="imgLinux">
+                </div>
+                <div class="texto" >
+                    <ul>
+                        <li>
+                            <p>
+                                <strong>/boot:</strong> Esta partición generalmente almacena los archivos de arranque del sistema operativo, como el cargador de arranque (GRUB) y el núcleo del sistema operativo. Por lo general, se mantiene pequeña y se monta al inicio del sistema. Su importancia radica en permitir que el sistema arranque correctamente.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <strong>/root:</strong> También conocida como la partición raíz, es donde se instala el sistema operativo Linux y se almacenan los archivos del sistema. Contiene los directorios y archivos necesarios para el funcionamiento del sistema y los programas instalados.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <strong>/home:</strong> Esta partición almacena los directorios de usuarios y sus archivos personales, como documentos, imágenes y configuraciones de aplicaciones. Separarla en una partición aparte facilita la reinstalación del sistema operativo sin perder los datos personales.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <strong>/swap:</strong> Esta partición se utiliza como espacio de intercambio (swap) para el sistema operativo Linux. Ayuda a liberar memoria RAM cuando esta se agota. El tamaño de esta partición suele ser el doble de la memoria RAM del sistema, aunque también se puede configurar según las necesidades del usuario.
+                            </p> 
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="../../Component/app.js" > </script>
+</body>
+</html>

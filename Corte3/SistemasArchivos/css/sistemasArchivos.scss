@@ -1,0 +1,29 @@
+@import url('../../../Component/component.css');
+
+main {
+    margin: 100px auto;
+
+    .contenedor {
+        margin: 0 30px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+
+        .card {
+            border: 2px solid #141a22;
+            padding: 20px;
+            border-radius: 20px;
+
+            h1 {
+                font-size: 28px;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            p {
+                font-size: 18px;
+                opacity: 0.8;
+            }
+        }
+    }
+}

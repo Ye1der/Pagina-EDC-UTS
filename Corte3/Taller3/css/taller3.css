@@ -1,0 +1,56 @@
+@import url(../../../Component/component.css);
+main {
+  margin: 100px auto;
+}
+main .titulo {
+  text-align: center;
+  margin-bottom: 50px;
+  opacity: 0.9;
+}
+main .puntoUno {
+  width: 80%;
+  margin: auto;
+}
+main .puntoUno h2 {
+  text-align: center;
+  opacity: 0.8;
+}
+main .puntoUno ul {
+  width: 75%;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  list-style: none;
+}
+main .puntoUno ul li {
+  text-align: justify;
+  opacity: 0.8;
+  font-size: 18px;
+  border: 2px solid #141a22;
+  padding: 20px;
+  border-radius: 15px;
+}
+main .puntoDos {
+  width: 80%;
+  margin: 100px auto;
+}
+main .puntoDos h2 {
+  text-align: center;
+  opacity: 0.8;
+}
+main .puntoDos table {
+  margin-top: 50px;
+}
+main .puntoDos table tr th {
+  border: 2px solid #141a22;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+main .puntoDos table tr td {
+  border: 2px solid #141a22;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+}/*# sourceMappingURL=taller3.css.map */
